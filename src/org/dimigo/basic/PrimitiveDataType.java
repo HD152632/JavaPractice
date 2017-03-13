@@ -1,6 +1,6 @@
 package org.dimigo.basic;
 
-public class ProfilePrint {
+public class PrimitiveDataType {
 	
 	
 	public static void main(String[] args) {
