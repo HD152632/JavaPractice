@@ -24,6 +24,7 @@ public class Question {
 		
 		Scanner scan=new Scanner(System.in);
 		String answer;
+		
 		for(int i=0;i<3;i++){
 			System.out.println((i+1)+". "+questions[i]+"?");
 			answer=scan.nextLine();
@@ -31,8 +32,11 @@ public class Question {
 			else System.out.println("오답......");
 		}
 		
+		System.out.println("<<결과 출력>>");
 		for(int i=0;i<3;i++){
-			System.out.println(questions[i]+" "+answers[i]+"입니다.");
+			StringBuilder sb=new StringBuilder();
+			sb.append(questions[i]).append(" ").append(answers[i]).append("입니다.");
+			System.out.println(sb);
 		}
 	}
 
