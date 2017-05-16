@@ -3,10 +3,6 @@
  */
 package org.dimigo.abstractclass;
 
-import org.dimigo.inheritance.Galaxy;
-import org.dimigo.inheritance.IPhone;
-import org.dimigo.inheritance.SmartPhone;
-
 /**
  * <pre>
  * org.dimigo.abstractclass
@@ -29,7 +25,7 @@ public class SmartPhoneTest {
 			System.out.println(ip.toString());
 			ip.turnOn();
 			ip.pay();
-			ip.useSpecialFunction(ip);
+			ip.useSpecialFunction();
 			ip.turnOff();
 			System.out.println("");
 		}
